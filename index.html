@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demonic</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/02c98aaf60.js" crossorigin="anonymous"></script>
+</head>
+
+<body translate="no">
+
+    <header>
+        <nav>
+            <h2><a href="#" class="logo">Olympia</a></h2>
+
+            <ul class="sidebar">
+                <li class="hide-btn" onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 96 960 960" width="35"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+                <li class="li-for-sidebar"><a href="#home" class="a">Home</a></li>
+                <li class="li-for-sidebar"><a href="#jir" class="b">Gallery Art</a></li>
+                <li class="li-for-sidebar"><a href="#father" class="c">Historical</a></li>
+                <li class="li-for-sidebar"><a href="#footer" class="d">FAQ</a></li>
+                <li class="li-for-sidebar"><a href="#footer" class="e">Sign Up</a></li>
+            </ul>
+
+            <ul class="desktop-ul" id="home">
+                <li class="li-hidden"><a href="#home" class="a">Home</a></li>
+                <li class="li-hidden"><a href="#jir" class="b">Gallery Art</a></li>
+                <li class="li-hidden"><a href="#father" class="c">Historical</a></li>
+                <li class="li-hidden"><a href="#footer" class="d">FAQ</a></li>
+                <li class="li-hidden"><a href="#footer" class="e">Sign Up</a></li>
+                <li class="menu-btn" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 96 960 960" width="35"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        function showSidebar(){ // BERFUNGSI UNTUK MEMBUKA SIDEBAR DENGAN MENEKAN MENU BUTTON
+            const sidebar = document.querySelector('.sidebar') //SELECTOR SIDEBAR (YANG AKAN DIBUKA)
+            sidebar.style.display = 'flex' //PERINTAH UNTUK MEMBUKA SIDEBAR
+        }
+
+        
+        function hideSidebar(){ // BERFUNGSI UNTUK MENUTUP SIDEBAR DENGAN MENEKAN HIDDEN BUTTON
+            const sidebar = document.querySelector('.sidebar') //SELECTOR SIDEBAR (YANG AKAN DITUTUP)
+            sidebar.style.display = 'none' //PERINTAH UNTUK MENUTUP SIDEBAR
+        }
+    </script>
+    
+    
+    <!-- MAIN HOME -->
+
+    <main>
+        <section class="home">
+            <div class="pict">
+                <img src="img/axelinne.png">
+            </div>
+        </section>
+
+        <section class="up" id="father">
+            <div class="fall">
+                <div class="content">
+                    <h2>God's of Greeks</h2>
+                    <article class="long">Dewa Yunani, merujuk pada Mitologi Yunani yang merupakan kumpulan cerita dan kepercayaan yang berasal dari zaman
+                        kuno Yunani kuno. Mitologi ini
+                        melibatkan dewa-dewi, makhluk mitologis, dan tokoh-tokoh heroik yang dianggap sebagai bagian
+                        penting dari budaya dan
+                        agama masyarakat Yunani kuno.</article>
+                    <a href="#explore" class="for-login">
+                        <button>Explore</button>
+                    </a>
+                </div>
+                
+                <aside class="omg">
+                    <aside><img src="img/athena.png"></aside>
+                </aside>
+            </div>
+        </section>
+
+        <!-- TAMBAHAN DIV DOANG -->
+        <div class="gradient">
+            <!-- CUMA TAMBAHAN -->
+        </div>
+
+        <!-- FIRST SECTION MAIN -->
+     <div class="demigod"></div>
+
+        <div class="bmjir" id="jir"></div>
+        <section class="middle" id="explore">
+            <div class="zeus">
+                <aside class="thunder"><img src="img/zeus-thunder.png"></aside>
+                <div class="thunder-bolt">
+                    <div class="title-container">
+                        <h2>ZEUS</h2>
+                        <p>(Father of the God's)</p>
+                    </div>
+                    <article>Zeus adalah dewa tertinggi dalam mitologi Yunani. Ia merupakan dewa langit, petir, dan
+                        kekuasaan. Zeus adalah putra dari
+                        Kronos dan Rhea. Menurut mitologi, Kronos takut akan ramalan bahwa salah satu anaknya akan
+                        menggulingkannya, sehingga
+                        ia memakan semua anaknya. Namun, Rhea menyelamatkan Zeus dan menyembunyikannya di pulau Krete.
+                        Ketika Zeus tumbuh dewasa, ia kembali ke Gunung Olimpus dan mengalahkan ayahnya, Kronos, serta
+                        dewa-dewa Titan yang
+                        lain. Zeus kemudian menjadi penguasa dewa-dewa dan mengendalikan dunia.
+                    </article>
+                </div>
+            </div>
+           
+            <div class="poseidon">
+                <aside class="sea"><img src="img/Bust of Neptune.png"></aside>
+                <div class="god-of-sea">
+                    <div class="title-container">
+                        <h2>POSEIDON</h2>
+                        <p>(God of the Sea)</p>
+                    </div>
+                    <article>Poseidon adalah dewa laut dan gempa bumi dalam mitologi Yunani. Ia merupakan salah satu
+                        dari Dua Belas Dewa Olimpus,
+                        saudara Zeus dan Hades. Poseidon dikenal sebagai penguasa lautan dan memiliki kekuatan untuk
+                        mengendalikan gelombang,
+                        badai, dan gempa bumi.
+                        Poseidon sering digambarkan dengan memegang trisula, lambang kekuasaannya, yang dapat digunakan
+                        untuk menimbulkan
+                        guncangan laut dan gempa bumi. Ia juga dikaitkan dengan kuda, dan sering kali terlihat
+                        menunggangi kuda laut yang kuat.
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2ND SECTION MAIN -->
+
+        <section class="villain">
+            <div class="hades">
+                <aside class="dead"><img src="img/hadesnih.png"></aside>
+                <div class="orientation">
+                    <div class="title-container">
+                        <h2>HADES</h2>
+                        <p>(God of the Underworld)</p>
+                    </div>
+                    <article>Hades adalah dewa dunia bawah dalam mitologi Yunani. Ia adalah salah satu dari Tiga
+                        Bersaudara, bersama dengan Zeus dan
+                        Poseidon. Hades adalah penguasa alam kematian dan tempat yang disebut Hades, yang merupakan
+                        tempat di mana jiwa orang
+                        mati pergi setelah meninggal.
+                        Hades sering kali digambarkan sebagai sosok yang serius dan suram. Ia mengenakan mahkota
+                        keabadian yang terbuat dari
+                        batu permata hitam. Hades memiliki kuasa untuk memutuskan nasib jiwa setelah kematian, apakah
+                        mereka akan pergi ke
+                        tempat yang menyenangkan atau dihukum di dalam Tartarus, bagian terdalam dari dunia bawah.
+                    </article>
+                </div>
+            </div>
+
+            <div class="hera">
+                <aside class="marry"><img src="img/herayue.png"></aside>
+                <div class="wife">
+                    <div class="title-container">
+                        <h2>HERA</h2>
+                        <p>(Goddess of Marriage)</p>
+                    </div>
+                    <article>
+                        Hera adalah dewi pernikahan dan keluarga dalam mitologi Yunani. Ia adalah istri dari Zeus, raja
+                        para dewa, dan merupakan
+                        salah satu dewi yang paling kuat dan penting di Olimpus.
+                        Hera digambarkan sebagai sosok yang anggun dan gagah. Ia sering kali mengenakan mahkota emas
+                        yang indah sebagai simbol
+                        kedudukannya. Hera dikenal sebagai pelindung pernikahan dan mengawasi kesetiaan suami dan istri.
+                        Ia sangat menjaga harga
+                        diri dan sangat memperhatikan etika dan moral dalam hubungan keluarga.
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3RD SECTION MAIN -->
+
+        <section class="hero">
+            <div class="hestia">
+                <aside class="fire"><img src="img/hestial.png"></aside>
+                <div class="respect">
+                    <div class="title-container">
+                        <h2>HESTIA</h2>
+                        <p>(Goddess of the Hearth)</p>
+                    </div>
+                    <article>Hestia adalah dewi api dan keluarga dalam mitologi Yunani. Ia adalah salah satu dewi yang
+                        paling dihormati dan dipuja di
+                        antara para dewa Olimpus.
+                        Hestia digambarkan sebagai sosok yang tenang, lembut, dan hangat. Ia sering kali ditempatkan di
+                        tengah-tengah api
+                        perapian sebagai simbol kehangatan dan keberadaannya yang abadi. Hestia merupakan pelindung
+                        rumah tangga dan api
+                        perapian, dan dianggap sebagai sumber kehidupan dan kehangatan dalam sebuah keluarga.
+                    </article>
+                </div>
+            </div>
+
+            <div class="demeter">
+                <aside class="culture"><img src="img/demeter-pop.png"></aside>
+                <div class="hades-wife">
+                    <div class="title-container">
+                        <h2>DEMETER</h2>
+                        <p>(Goddess of the Harvest)</p>
+                    </div>
+                    <article>Demeter adalah dewi pertanian dalam mitologi Yunani kuno. Ia adalah ibu dari hasil panen
+                        dan kesuburan bumi. Demeter
+                        sangat peduli dengan tanaman dan musim panen.
+                        Ia digambarkan sebagai seorang wanita yang anggun dengan rangkaian bunga dan gandum di
+                        tangannya. Demeter mengatur
+                        siklus alam yang mempengaruhi musim tanam dan panen. Ketika musim panas tiba, ia membuat tanaman
+                        tumbuh subur dan hasil
+                        panen melimpah.
+                    </article>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- 4TH SECTION MAIN -->
+
+        <section class="greek">
+            <div class="apollo">
+                <aside class="bow"><img src="img/apollohorizon.png"></aside>
+                <div class="phoenix">
+                    <div class="title-container">
+                        <h2>APOLLO</h2>
+                        <p>(God of Archery)</p>
+                    </div>
+                    <article>Apollo adalah dewa dalam mitologi Yunani yang dikaitkan dengan banyak hal, termasuk musik,
+                        seni, kebijaksanaan,
+                        penyembuhan, dan matahari. Ia adalah anak dari Zeus dan Leto, dan merupakan saudara kembar dewi
+                        Artemis.
+                        Apollo sering digambarkan sebagai seorang pria tampan dengan busur dan panah di tangannya. Ia
+                        dianggap sebagai dewa
+                        musik dan seni, dan sering kali terlihat memainkan musik dengan kecapi atau meniup serulingnya.
+                        Apollo juga dihormati
+                        sebagai dewa kebijaksanaan dan memiliki kuasa atas ramalan dan pengetahuan.
+                    </article>
+                </div>
+            </div>
+
+            <div class="artemis">
+                <aside class="moon"><img src="img/artemismoon.png"></aside>
+                <div class="gyu">
+                    <div class="title-container">
+                        <h2>ARTEMIS</h2>
+                        <p>(Goddess of the Moon)</p>
+                    </div>
+                    <article>Artemis adalah dewi dalam mitologi Yunani yang dikaitkan dengan keperawanan, pemburuan, dan
+                        bulan. Ia adalah saudara
+                        kembar Apollo dan merupakan salah satu dewi terkemuka dalam pantheon Yunani.
+                        Artemis sering digambarkan sebagai seorang wanita muda yang memegang busur dan panah. Ia dikenal
+                        sebagai dewi pemburuan
+                        yang ulung dan sering kali disertai oleh sekelompok anjing pemburu. Artemis dihormati sebagai
+                        pelindung para pemburu dan
+                        binatang liar.
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 5TH SECTION MAIN -->
+
+        <section class="roman">
+            <div class="athena">
+                <aside class="vanhelsing"><img src="img/athenavanhelsing.png"></aside>
+                <div class="war">
+                    <div class="title-container">
+                        <h2>ATHENA</h2>
+                        <p>(Goddes of Wisdom)</p>
+                    </div>
+                    <article>Athena adalah dewi kebijaksanaan, kecerdasan, dan perang yang penting dalam mitologi
+                        Yunani. Ia sering kali digambarkan
+                        dengan mengenakan helm perang dan memegang tombak. Athena dianggap sebagai pelindung kota
+                        Athena, dan dihormati sebagai
+                        dewi perlindungan, strategi perang, seni, dan ilmu pengetahuan. Ia juga melambangkan kecerdasan
+                        dan kebijaksanaan dalam
+                        pengambilan keputusan.</article>
+                </div>
+            </div>
+
+            <div class="ares">
+                <aside class="god-of-war"><img src="img/aresff.png"></aside>
+                <div class="handsome">
+                    <div class="title-container">
+                        <h2>ARES</h2>
+                        <p>(God of the War)</p>
+                    </div>
+                    <article>Ares adalah dewa perang dalam mitologi Yunani. Ia digambarkan sebagai sosok pria gagah yang
+                        berani dengan
+                        senjata-senjata perang di tangannya. Ares seringkali dikaitkan dengan kekerasan, keberanian
+                        dalam pertempuran, dan nafsu
+                        berperang. Ia adalah dewa yang suka bertempur dan menghadapi tantangan. Namun, Ares juga sering
+                        kali dianggap sebagai
+                        sosok yang kurang bijaksana dan sering memicu konflik.
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6TH SECTION MAIN -->
+
+        <section class="goddess">
+            <div class="aphrodite">
+                <aside class="venus"><img src="img/uvenus.png"></aside>
+                <div class="love">
+                    <div class="title-container">
+                        <h2>APHRODITE</h2>
+                        <p>(Goddess of the Love)</p>
+                    </div>
+                    <article>Aphrodite adalah dewi cinta, kecantikan, dan keinginan dalam mitologi Yunani. Ia
+                        digambarkan sebagai wanita cantik
+                        dengan daya tarik yang luar biasa. Aphrodite sering kali dikaitkan dengan asmara, keindahan, dan
+                        kegembiraan dalam
+                        hubungan antar manusia. Ia juga dianggap sebagai pelindung hubungan asmara, pernikahan, dan
+                        keluarga. Aphrodite memiliki
+                        pengaruh besar dalam menciptakan ikatan emosional dan cinta di antara para dewa dan manusia.
+                    </article>
+                </div>
+            </div>
+
+            <div class="hermes">
+                <aside class="speed"><img src="img/hermesspeed.png"></aside>
+                <div class="last">
+                    <div class="title-container">
+                        <h2>HERMES</h2>
+                        <p>(God of the Speed)</p>
+                    </div>
+                    <article>Hermes adalah dewa perantara, pembawa pesan, dan pelindung para pengembara dalam mitologi
+                        Yunani. Ia digambarkan sebagai
+                        pria muda yang gesit dengan sayap di sepatunya dan topi yang dikenal sebagai petasos. Hermes
+                        adalah pesuruh para dewa
+                        dan memiliki kecepatan yang luar biasa. Ia juga melambangkan kecerdikan, kegembiraan, dan
+                        kecerdasan dalam melakukan
+                        perjalanan. Hermes adalah dewa yang berhubungan dengan perdagangan, perjalanan, komunikasi, dan
+                        kecerdasan dalam dunia
+                        mitologi Yunani.</article>
+                </div>
+            </div>
+         </div>
+        </section>
+    </main>
+
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footerism">
+                    <h4>Service</h4>
+                    <ul>
+                        <li><a href="https://wa.me/6289523485111" target="_blank">FAQ</a></li>
+                        <li><a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">About Us</a>
+                        </li>
+                        <li><a href="https://wa.me/6289523485111" target="_blank">QNA</a></li>
+                        <li><a href="notfoun.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="mid">
+                    <h4>Visit</h4>
+                    <ul>
+                        <li><a href="https://tokopedia.com" target="_blank">Tokopedia</a></li>
+                        <li><a href="https://shopee.com" target="_blank">Shopee</a></li>
+                        <li><a href="index.html" target="_blank">Gallery Art</a></li>
+                    </ul>
+                </div>
+
+                <div class="end">
+                    <div class="ending">
+                        <h4>Login</h4>
+                        <form action="">
+                            <input type="email" placeholder="Email" class="inputName">
+                            <input type="password" placeholder="Password" class="inputEmail">
+                            <input type="submit" value="LOGIN" class="inputSubmit">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="alright">
+                <div class="col">
+                    <p>&#169; 2023 Olympia, All right reserved</p>
+                </div>
+                <div class="socialIcon">
+                    <a href="https://facebook.com/Velix Ataraxia" class="facebook-icon"><i
+                            class="fa-brands fa-facebook"></i></a>
+                    <a href="https://ig.me/pashalixx" class="instagram-icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com" class="twitter-icon"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://discord.com" class="discord-icon"><i class="fa-brands fa-discord"></i></a>
+                    <a href="https://wa.me/6289523485111" class="whatsapp-icon"><i
+                            class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </div>
+
+        </div>
+        
+    </footer>
+</body>
+
+</html>
